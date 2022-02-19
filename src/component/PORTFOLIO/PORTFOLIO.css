@@ -1,0 +1,44 @@
+.work-card{
+    height: 300px;
+    width: 350px;
+    overflow: hidden;
+}
+.info-work{
+    color: 20px !important;
+}
+.btn-modal{
+    background-color: transparent;
+    border: none;
+}
+.work-card img:hover{
+    transform: scale(1.1);
+} 
+.work-card img{
+    overflow: hidden;
+    transition: all 1s;
+}
+
+.carousel-item img{
+    height: 100px;
+    width: 20% !important;
+    border-radius: 50%;
+    margin-left:40% ;
+}
+.carousel-item{
+    text-align: center;
+    height: 400px;
+    padding: 100px;
+    color: black !important;
+    background-image: linear-gradient(rgba(29, 119, 170, 0.5),rgba(19, 157, 161, 0.5)) ,  url(./overlay-bg.jpg) ;
+    background-size: cover;
+}
+
+
+
+
+
+
+
+
+
+

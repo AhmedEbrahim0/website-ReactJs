@@ -1,0 +1,21 @@
+.Home{
+
+background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5))  , url(./home.jpg);
+background-size: cover;
+border: solid ;
+height: 600px;
+
+}
+.txt{
+    color: white;
+    font-size: 60px;
+}
+.x1{
+    margin-top: 10%;
+}
+.typewriter{
+    font-size: 30px;
+    text-align: center;
+    color: white;
+
+}

@@ -1,0 +1,28 @@
+.header  .icon1{
+    margin-right: 20px;
+}
+.header .x{
+    display: inline-block !important;
+}
+.x i{
+    margin-right: 5px;
+
+}
+.info{
+    display: inline-block;
+    border-right:  1px solid #e9e9e9;
+    margin: 0px 10px;
+    padding: 5px;
+}
+.header{
+    border-bottom: solid 1px #e9e9e9;;
+    padding: 5px;
+}
+.xx1{
+    color: #50d8af !important;
+    
+}
+.x11:hover{
+    color: #50d8af !important;
+    
+}

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta  name="description" content="Web site created using create-react-app"/>
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="boostrap/bootstrap.min.css">
+    <link rel="stylesheet" href="font awesome/all.min.css">
+    <link rel="stylesheet" href="animate,hover/animate.min.css">
+    <link rel="icon" href="work-1.jpg">
+    <title>Programmer</title>
+    <style>
+      .active{
+        color: #50d8af !important;
+      }
+    </style>
+  </head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+  
+
+<script>
+  $(window).ready(function(){
+
+
+    $(".navbar ul li a").click(function(){
+    
+    $(this).addClass("active");
+    $(this).parent().siblings().find("a").removeClass("active")
+      
+    }
+    )
+
+
+    setInterval(function(){
+      let date=new Date();
+    document.querySelector(".day p").innerHTML=date.getDay();
+    document.querySelector(".hour p").innerHTML=date.getHours();
+    document.querySelector(".min p").innerHTML=date.getMinutes();
+    document.querySelector(".sec p").innerHTML=date.getSeconds();
+    },1000)
+  
+
+
+    $(".html").animate({
+    width:'85%'
+  },1000)
+  
+  $(".css").animate({
+    width:'75%'
+  },1000)
+  
+  $(".js").animate({
+    width:'60%'
+  },1000)
+
+
+$(".btn-modal").click(function(){
+  let x1=$(this).attr("data-src")
+  // alert(x1)
+  $(".work--1").css({
+    display:'block'
+  })
+  $(".modal-work").attr("src",x1);
+  
+})
+
+
+
+  })
+</script>
+
+
+
+
+<body>
+  
+</body>
+    
+    
+    
+    
+
+
+
+
+
+
+
+
+
+  </body>
+
+</html>

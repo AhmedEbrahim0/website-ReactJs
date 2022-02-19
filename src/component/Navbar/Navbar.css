@@ -1,0 +1,16 @@
+
+ul li a{
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+}
+.ed{
+    color: #f50;
+    font-size: 25px;
+    font-weight: bolder;
+}
+.ahm{
+    color: rgb(30, 148, 216);
+    font-size: 25px;
+    font-weight: bolder;
+}

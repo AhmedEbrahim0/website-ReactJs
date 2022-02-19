@@ -1,0 +1,34 @@
+.width{
+    height: 20px;
+    width: 0%;
+    border: solid #0078ff ;
+    background-color:#0078ff ;
+}
+.html{
+    width: 85%;
+}
+.css{
+    width: 75%;
+}
+.js{
+    width: 60%;
+}
+.font-about{
+    font-size: 20px;
+    margin-top: 30px;
+}
+.bg-about{
+    background-color: #ece4e4;
+}
+.about-back{
+    background-color: white;
+}
+.about-me{
+    font-size: 30px;
+}
+.about-me span{
+    border:#0d6efd 2px solid;
+    height: 0.5px;
+    display: block;
+    width: 90px;
+}

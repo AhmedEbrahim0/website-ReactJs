@@ -1,0 +1,32 @@
+.time{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)) ,url(./bg.jpg);
+height: 600px;
+background-size: cover;
+border: solid;
+text-align: center;
+}
+.txt-time{
+    margin-top: 10%;
+    color: white;
+    text-align: center;
+    font-size: 35px;
+}
+.txt-time p{
+    font-size: 25px !important;
+}
+.date{
+    color: white;
+margin-top: 50px;
+
+}
+.date div{
+    display: inline-block;
+    border-top: 5px solid #ff0000;
+    height: 120px;
+    width: 100px;
+    margin: 0px 10px;
+    background-color: #6c757d52;
+    text-align: center;
+    padding: 5px;
+    font-size: 25px;
+}
